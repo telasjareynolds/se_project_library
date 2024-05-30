@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triple Peaks Library</title>
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="./vendor/normalize.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <div class="page">
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo.svg"
+            alt="Triple Peaks Library Logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a href="#events" class="nav__link">Events</a>
+            </li>
+            <li>
+              <a href="#staff-picks" class="nav__link">Staff picks</a>
+            </li>
+            <li>
+              <a href="#become-member" class="nav__link">Become a member</a>
+            </li>
+            <li>
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li>
+              <a href="#contacts" class="nav__link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <h1 class="header__title">Welcome to the Triple Peaks Library</h1>
+        <p class="header__description">
+          We're pleased to open our library doors to everyone! Come and expand
+          your development knowledge, or just use this lovely spot to work or
+          study. This is a cool place for cool students!
+        </p>
+        <img
+          src="./images/inside_the_library.png"
+          alt="Illustration 'Inside the library'"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <a href="#about" class="header__link">About the library &darr;</a>
+          <p class="header__address">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="events" id="events">
+          <div class="events__content">
+            <h2 class="events__heading">Upcoming events:</h2>
+            <h3 class="events__title">
+              In honor of Joan Feynman: Women in astrophysics
+            </h3>
+            <div class="event-info events__info-section">
+              <div class="event-info__item">
+                <div
+                  class="event-info__icon event-info__icon_type_calendar"
+                ></div>
+                <p class="event-info__text">Mon, January 12</p>
+              </div>
+              <div class="event-info__item">
+                <div class="event-info__icon event-info__icon_type_pin"></div>
+                <p class="event-info__text">
+                  Triple Peaks Library Conference Hall & Online
+                </p>
+              </div>
+            </div>
+            <p class="events__description">
+              At this event, which celebrates the library's namesake, our guest
+              lecturer will take us on a journey exploring some of the most
+              prominent female researchers in the world of space science. It's
+              easy to buy into the misconception that this field was mostly
+              dominated by men, but our lecture aims to change that notion and
+              prove that this hasn't been the case since at least the 18th
+              century.
+            </p>
+            <a href="#" class="events__more">More events &rarr;</a>
+          </div>
+          <div class="events__cover">
+            <img
+              src="./images/cafe.png"
+              alt="view inside coffee shop of library"
+              class="events__image"
+            />
+            <div class="person person_name_feynman">
+              <p class="person__caption">Joan Feynman</p>
+              <img
+                src="./images/person_feynman.png"
+                alt="Joan Feynman"
+                class="person__image person__image_size_l"
+              />
+            </div>
+            <div class="person person_name_burbidge">
+              <p class="person__caption">Margaret Burbidge</p>
+              <img
+                src="./images/person_burbidge.png"
+                alt="Margaret Burbidge"
+                class="person__image person__image_size_m"
+              />
+            </div>
+            <div class="person person_name_cannon">
+              <img
+                src="./images/person_cannon.png"
+                alt="Annie Jump Cannon"
+                class="person__image person__image_size_m"
+              />
+              <p class="person__caption">Annie Jump Cannon</p>
+            </div>
+            <div class="person person_name_mitchell">
+              <img
+                src="./images/person_mitchell.png"
+                alt="Maria Mitchell"
+                class="person__image person__image_size_s"
+              />
+              <p class="person__caption">Maria Mitchell</p>
+            </div>
+            <div class="person person_name_tarter">
+              <p class="person__caption">Jill Tarter</p>
+              <img
+                src="./images/person_tarter.png"
+                alt="Jill Tarter"
+                class="person__image person__image_size_m"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section class="staff" id="staff-picks">
+          <h2 class="staff__title">Reader picks</h2>
+          <p class="staff__subtitle">That our readers love</p>
+          <ul class="staff__cards">
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">The Golden Lily</h3>
+                <p class="card__text">
+                  The <em>Bloodlines</em> series by Richelle Mead is a spin-off
+                  of the <em>Vampire Academy</em> universe. Following Sydney
+                  Sage, an alchemist protecting vampire secrets, it delves into
+                  her struggle with duty and her romance with the charismatic
+                  vampire Adrian Ivashkov. Filled with intrigue and supernatural
+                  elements, the series offers a captivating exploration of love
+                  and loyalty in a complex paranormal world.
+                </p>
+                <p class="card__footer">Richelle Mead</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Twilight</h3>
+                <p class="card__text">
+                  The <em>Twilight</em> series by Stephenie Meyer follows Bella
+                  Swan's forbidden love with Edward Cullen, a vampire, in the
+                  rainy town of Forks, Washington. Across four books—<em
+                    >Twilight, New Moon, Eclipse,</em
+                  >
+                  and <em>Breaking Dawn</em>—readers are drawn into a world of
+                  romance, supernatural beings, and high school drama, exploring
+                  themes of love, sacrifice, and immortality.
+                </p>
+                <p class="card__footer">Stephenie Meyer</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Lorien Legacies</h3>
+                <p class="card__text">
+                  The <em>Lorien Legacies</em> series by Pittacus Lore follows
+                  nine alien teenagers, the Garde, fleeing to Earth after their
+                  planet, Lorien, is invaded by the villainous Mogadorians.
+                  Hunted down one by one, they must harness their powers and
+                  unite to defeat their enemies. Filled with action and
+                  adventure, the series captivates readers with its thrilling
+                  narrative and diverse characters.
+                </p>
+                <p class="card__footer">Pittacus Lore</p>
+              </div>
+            </li>
+
+            <li class="card">
+              <div class="card__content">
+                <h3 class="card__title">Throne of Glass</h3>
+                <p class="card__text">
+                  The <em>Throne of Glass</em> series by Sarah J. Maas tracks
+                  the odyssey of Celaena Sardothien, a lethal assassin thrust
+                  into a world of political intrigue and magic. Across several
+                  books, she uncovers her destiny as a formidable force against
+                  evil. With richly crafted characters and gripping
+                  storytelling, the series enthralls readers with its blend of
+                  fantasy and romance.
+                </p>
+                <p class="card__footer">Sarah J. Mass</p>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <section class="membership" id="become-member">
+          <h2 class="membership__title">Becoming a library member is easy!</h2>
+          <ul class="membership__steps">
+            <li class="step">
+              <h3 class="step__title">
+                Step 1
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Fill out the membership form online or in person.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Step 2
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Come pick up your library card at the front desk.
+              </p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Step 3
+                <img
+                  src="./images/icon_step_forward.svg"
+                  alt="icon forward"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">Sign the back of the card.</p>
+            </li>
+            <li class="step">
+              <h3 class="step__title">
+                Step 4
+                <img
+                  src="./images/icon_step_finish.svg"
+                  alt="icon finish"
+                  class="step__icon"
+                />
+              </h3>
+              <p class="step__description">
+                Enjoy all the awesome benefits of membership!
+              </p>
+            </li>
+          </ul>
+        </section>
+
+        <section class="about" id="about">
+          <h2 class="about__title">About the library</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Libraries are essential establishments in practically every city,
+              and the Triple Peaks Library is no exception. It first opened its
+              doors way back in 2018, right as our humble town began bidding
+              welcome to its very first citizens!
+            </p>
+            <p class="about__paragraph">
+              Since its initial opening, the library has seen nearly 342 monthly
+              visitors. That's almost 50% of our population! So far, most
+              citizens have enjoyed reading books and using our ample online
+              resources.
+            </p>
+            <p class="about__paragraph">
+              Become a member today, and make sure to check out our Staff Picks
+              section. This week's selection is full of books anyone interested
+              in computer programming would love!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+        </section>
+      </main>
+      <footer class="footer" id="contacts">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <img
+              src="./images/logo_white.svg"
+              class="footer__logo"
+              alt="triple peaks libary logo"
+            />
+          </div>
+          <div class="footer__column footer__column_content_hours">
+            <h3 class="footer__column-heading">Hours</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">Weekdays: 9am - 8pm</li>
+              <li class="footer__list-item">Weekends: 10am - 6pm</li>
+            </ul>
+          </div>
+          <div class="footer__column footer__column_content_social">
+            <h3 class="footer__column-heading">Social Media</h3>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/facebook_white.svg"
+                    alt="facebook icon"
+                    class="footer__social-icon"
+                  />
+                  Facebook</a
+                >
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__column-link">
+                  <img
+                    src="./images/instagram_white.svg"
+                    alt="instagram icon"
+                    class="footer__social-icon"
+                  />
+                  Instagram</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <p class="footer__copyright">&copy; 2024 Telasja Reynolds</p>
+      </footer>
+    </div>
+  </body>
+</html>
